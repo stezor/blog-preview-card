@@ -31,12 +31,12 @@ body {
   border-radius: 16px;
   padding: 24px;
   background-color: var(--white);
-  box-shadow: 16px 16px var(--gray-950);
+  box-shadow: 8px 8px var(--gray-950);
   overflow: hidden;
 }
 
 .blog-preview-card__image {
-  height: 240px;
+  height: 200px;
   border-radius: 12px;
   background-image: url("./assets/images/illustration-article.svg");
   background-repeat: no-repeat;
