@@ -60,9 +60,17 @@ body {
   line-height: 16px;
 }
 
-.blog-preview-card__title {
+.blog-preview-card__title a {
   font-size: 20px;
   line-height: 24px;
+  font-weight: 900;
+  color: var(--gray-950);
+  text-decoration: none;
+  transition: color 0.1s ease;
+}
+
+.blog-preview-card__title a:hover {
+  color: var(--yellow);
 }
 
 .blog-preview-card__description {
